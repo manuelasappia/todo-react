@@ -1,0 +1,68 @@
+.app__container {
+  height: 100vh;
+  background: linear-gradient(to bottom, #e66465, #9198e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .app__container h1 {
+    color: #535353; }
+.app__inner-wrapper {
+  width: 400px;
+  background-color: white;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.form {
+  display: flex;
+  margin-bottom: 24px; }
+  .form__input {
+    padding: 12px;
+    width: 250px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 18px; }
+  .form__button-add {
+    background: pink;
+    border: 1px solid gray;
+    padding: 12px;
+    border-left: none;
+    cursor: pointer; }
+    .form__button-add .fa-plus {
+      color: white;
+      font-size: 20px; }
+
+.list-group {
+  padding-left: 0;
+  width: 320px; }
+  .list-group .list-group-item {
+    list-style-type: none;
+    margin-bottom: 16px;
+    font-size: 18px;
+    background: #f3f3f3;
+    cursor: pointer; }
+    .list-group .list-group-item__button-delete {
+      background: #7c84e0;
+      border: none;
+      cursor: pointer; }
+      .list-group .list-group-item__button-delete .fa-trash {
+        color: white;
+        font-size: 20px;
+        padding: 10px; }
+    .list-group .list-group-item__checkbox {
+      display: none; }
+    .list-group .list-group-item div {
+      display: flex;
+      justify-content: space-between; }
+    .list-group .list-group-item span {
+      margin-right: 16px;
+      padding: 12px; }
+      .list-group .list-group-item span label {
+        cursor: pointer; }
+  .list-group .list-group-item-success {
+    text-decoration: line-through; }
+
+/*# sourceMappingURL=App.css.map */
